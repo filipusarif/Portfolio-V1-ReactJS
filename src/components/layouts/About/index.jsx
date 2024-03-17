@@ -11,13 +11,18 @@ export default function index() {
     },[]) 
     return (
         <section 
-        className="container m-auto grid place-items-center pb-16 pt-24 relative  h-fit overflow-hidden" 
-        data-aos="fade-up"
-        data-aos-easing="ease"
-        data-aos-duration="900"
-        data-aos-offset="400">
-            <Tab v="invisible" b="bg-complementary absolute" />
-            <Tab v="visible" b="bg-gradient-to-tr  from-primary from-[20%] to-secondary relative"/>
+        className=" grid place-items-center pb-16 relative  h-fit overflow-hidden" 
+        id='About'
+        >
+            <div
+            className="container m-auto  grid place-items-center pb-16 pt-24 relative  h-fit overflow-hidden  " 
+            data-aos="fade-up"
+            data-aos-easing="ease"
+            data-aos-duration="900"
+            data-aos-offset="400">
+                <Tab v="invisible" b="bg-complementary absolute" />
+                <Tab v="visible" b="bg-gradient-to-tr  from-primary from-[20%] to-secondary relative"/>
+            </div>
         </section>
     )
 }
@@ -31,7 +36,6 @@ const Tab = (props) => {
     return (
         <div 
         className={` ${props.b} ${props.stat} mt-34 h-auto shadow-lg overflow-hidden rounded-[40px] skew-x-[8deg] md:skew-x-[10deg] z-10 ${props.v == 'invisible'? "w-[74%] md:w-[79.8%] top-24 mt-[1px]":"w-[81.5%] md:w-[91.5%]  pb-[2.8px]  md:animate-[about_5s_ease_infinite] animate-[about2_5s_ease_infinite]"} `}
-        id='About'
         >
             <div className={` ${props.v} flex px-12 pt-8 items-center mb-[20px] w-full`}>
                 <div className="basis-[20%] flex items-center gap-[5px] lg:gap-[10px] drop-shadow-md">

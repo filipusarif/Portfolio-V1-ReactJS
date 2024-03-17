@@ -45,11 +45,11 @@ export default function index() {
         id='Hero'
         ref={comp}
         >
-            <div className='basis-[50%] px-4 lg:px-0 font-Roboto opacity-100'
+            <div className='basis-[50%]  px-4 lg:px-0 font-Roboto opacity-100'
             id='info'
             >
                 <p id="info2" className=' font-Poppins gap-2  font-reguler flex items-center drop-shadow-lg text-[120%] lg:text-[140%]'>Introduction <div className='h-[4px] w-[30px] bg-lightBlueAbout rounded-[2px]'></div> </p>
-                <h1 id="info3" className='mt-2 drop-shadow-lg font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#2996E5] via-[#1CDAAC] via-[90%] to-[#1CDAAC] text-[220%] leading-[110%]  md:text-[315%] md:leading-[105%]'>Web Developer and <br /> UI Designer, based <br /> in Semarang.</h1>
+                <h1 id="info3" className='mt-2 drop-shadow-lg font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#2996E5] via-[#1CDAAC] via-[90%] to-[#1CDAAC] text-[220%] leading-[110%]  md:text-[370%] md:leading-[105%] w-full'>Web Developer and  UI Designer, based  in Semarang.</h1>
                 <p id="info4" className='mt-3 w-[90%] text-very-light drop-shadow-2xl text-[80%] leading-4 md:text-[95%] md:leading-5'>Hello! I am a skilled and enthusiastic web developer with a passion for translating concepts into captivating online experience. Proficient in front-end technologies like HTML, CSS, and JavaScript ETC.</p>
                 <a id="info5" href="#Contact" className=' bg-complementary mt-5 py-[10px] w-[155px] flex items-center justify-center rounded-[10px] gap-[5px] drop-shadow font-medium'>Contact Me <img src={Send} alt="send" /></a>
                 <div id="info6" className='flex items-center gap-[10px] mt-14 lg:gap-[15px] lg:mt-20'>
