@@ -35,7 +35,7 @@ export default function index(){
                     <div className='basis-[18%]  flex flex-col lg:gap-3.5 z-40'>
                         <h3 className='text-[130%] font-bold text-slate-200 mt-2'>Contact</h3>
                         <a target='_blank' href="https://github.com/filipusarif" className='flex justify-start gap-3 items-center'><img src={Github} alt="" className='w-[8%] lg:w-[14%]'/>Github</a>
-                        <a target='_blank' href="https://www.linkedin.com/in/filipus-arif-kristiyan/" className='flex justify-start gap-3 items-center mt-4'><img src={Linkedin} alt=""  className='w-[8%] lg:w-[14%]'/>Linkedin</a>
+                        <a target='_blank' href="https://www.linkedin.com/in/filipus-arif-kristiyan10/" className='flex justify-start gap-3 items-center mt-4'><img src={Linkedin} alt=""  className='w-[8%] lg:w-[14%]'/>Linkedin</a>
                         <a target='_blank' href="https://www.instagram.com/filipusarif._/" className='flex justify-start gap-3 items-center mt-4'><img src={Instagram} alt=""  className='w-[8%] lg:w-[14%]'/>Instagram</a>
                     </div>
                 </div>
