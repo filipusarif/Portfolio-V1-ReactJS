@@ -54,7 +54,7 @@ export default function index() {
                 <a id="info5" href="#Contact" className=' bg-complementary mt-5 py-[10px] w-[155px] flex items-center justify-center rounded-[10px] gap-[5px] drop-shadow font-medium'>Contact Me <img src={Send} alt="send" /></a>
                 <div id="info6" className='flex items-center gap-[10px] mt-14 lg:gap-[15px] lg:mt-20'>
                     <Icon to="https://github.com/filipusarif" source={Github} alt="Github" w="31px"/>
-                    <Icon to="https://www.linkedin.com/in/filipus-arif-kristiyan10/" source={Linkedin} alt="Linkedin" w="31px"/>
+                    <Icon to="https://www.linkedin.com/in/filipus-arif-kristiyan/" source={Linkedin} alt="Linkedin" w="31px"/>
                     <Icon to="https://www.instagram.com/filipusarif._/" source={Instagram} alt="Instagram" w="31px"/>
                 </div>
             </div>
