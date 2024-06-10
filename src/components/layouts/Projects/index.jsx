@@ -77,6 +77,14 @@ const projects =[
         img:'09_SWS.png',
         no:'08'
     },
+    {
+        id:9,
+        name:'Slicing Markethink',
+        link:'https://github.com/filipusarif/Slicing-Markethink-Bootstrap-SASS',
+        year:2024,
+        img:'10_markethink.png',
+        no:'09'
+    },
 ];
 
 const uniqueYears = [...new Set(projects.map(item => item.year))];
