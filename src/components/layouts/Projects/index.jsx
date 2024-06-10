@@ -119,7 +119,7 @@ export default function index(){
                 <CardWrapper year={year}/>
                 ))}
                 <div className="flex justify-start  w-full mt-10">
-                    <div className="flex justify-center items-center gap-4 -translate-y-5 -translate-x-9 lg:translate-x-3">
+                    <div className="flex justify-center items-center gap-4 -translate-y-1 -translate-x-9 lg:translate-x-3">
                         <img src={Polygon} alt="" className=' drop-shadow-lg'/>
                         {/* <div className="h-[25px] w-[25px] border-[4px] border-complementary  rounded-[50%]"/> */}
                     </div>
