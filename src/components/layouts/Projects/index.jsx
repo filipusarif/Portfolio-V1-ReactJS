@@ -40,7 +40,7 @@ const projects =[
     {
         id:4,
         name:'MyMouse',
-        link:'',
+        link:'https://github.com/filipusarif/MyMouse-Web',
         year:2023,
         img:'05_mymouse.svg',
         no:'04'
@@ -48,7 +48,7 @@ const projects =[
     {
         id:5,
         name:'Sentiment Analysis',
-        link:'',
+        link:'https://github.com/filipusarif/Data-Mining-Sentiment-Analysis-Django',
         year:2023,
         img:'06_sentimen.svg',
         no:'05'
@@ -56,10 +56,26 @@ const projects =[
     {
         id:6,
         name:'Blind Stick',
-        link:'https://blindstickproject.000webhostapp.com/',
+        link:'https://github.com/filipusarif/Blind-Stick-Project',
         year:2023,
         img:'07_blindstick.svg',
         no:'06'
+    },
+    {
+        id:7,
+        name:'Blind Stick Remastered',
+        link:'https://github.com/filipusarif/BlindStick-V2-Laravel',
+        year:2024,
+        img:'08_blindstickR.png',
+        no:'07'
+    },
+    {
+        id:8,
+        name:'Web Server Desktop App',
+        link:'https://github.com/filipusarif/Web-Server-Java',
+        year:2024,
+        img:'09_SWS.png',
+        no:'08'
     },
 ];
 
@@ -95,7 +111,7 @@ export default function index(){
                 <CardWrapper year={year}/>
                 ))}
                 <div className="flex justify-start  w-full mt-10">
-                    <div className="flex justify-center items-center gap-4 -translate-x-9 lg:translate-x-3">
+                    <div className="flex justify-center items-center gap-4 -translate-y-5 -translate-x-9 lg:translate-x-3">
                         <img src={Polygon} alt="" className=' drop-shadow-lg'/>
                         {/* <div className="h-[25px] w-[25px] border-[4px] border-complementary  rounded-[50%]"/> */}
                     </div>

@@ -41,7 +41,7 @@ export default function index(prop){
             onLeave={() => setIsHovered(null)}
             onEnter={() => handleHover(prop.id)}
             className="relative w-full h-full">
-                <img src={`project/${prop.imgProject}`} alt="Project"  className='w-full drop-shadow-lg rounded-lg'/>
+                <img src={`project/${prop.imgProject}`} alt="Project"   className='w-full drop-shadow-lg rounded-lg'/>
                 <div className='absolute bottom-1 lg:bottom-3 -left-10 w-[80%]  text-very-light' 
                 style={{
                     transform: "translateZ(50px)",
