@@ -85,6 +85,54 @@ const projects =[
         img:'10_markethink.png',
         no:'09'
     },
+    {
+        id:10,
+        name:'Burger Bun N Fun',
+        link:'https://github.com/filipusarif/burger-Django',
+        year:2024,
+        img:'11_burger.png',
+        no:'10'
+    },
+    {
+        id:11,
+        name:'TravelGo',
+        link:'https://github.com/filipusarif/travelgo-django',
+        year:2024,
+        img:'12_travelgo.png',
+        no:'11'
+    },
+    {
+        id:12,
+        name:'PPDB TK Amanah Bangsa',
+        link:'https://github.com/filipusarif/tk-project',
+        year:2024,
+        img:'13_tk.png',
+        no:'12'
+    },
+    {
+        id:13,
+        name:'Jogjappetite',
+        link:'https://github.com/filipusarif/restaurant5-django',
+        year:2024,
+        img:'14_jogja.png',
+        no:'13'
+    },
+    {
+        id:14,
+        name:'Oleh Bali',
+        link:'https://github.com/filipusarif/oleh-bali-v6',
+        year:2024,
+        img:'15_bali.png',
+        no:'14'
+    },
+    {
+        id:15,
+        name:'VisionMate',
+        link:'https://visionmate.vercel.app/',
+        year:2025,
+        img:'16_visionmate.png',
+        no:'15'
+    },
 ];
 
 const uniqueYears = [...new Set(projects.map(item => item.year))];
@@ -118,7 +166,7 @@ export default function index(){
                 {uniqueYears.map(year => (
                 <CardWrapper year={year}/>
                 ))}
-                <div className="flex justify-start  w-full mt-10">
+                <div className="flex justify-start  w-full">
                     <div className="flex justify-center items-center gap-4 -translate-y-1 -translate-x-9 lg:translate-x-3">
                         <img src={Polygon} alt="" className=' drop-shadow-lg'/>
                         {/* <div className="h-[25px] w-[25px] border-[4px] border-complementary  rounded-[50%]"/> */}
